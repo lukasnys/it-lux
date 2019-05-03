@@ -4,7 +4,7 @@
     ?>
 
     <div class="container-home-image">
-        <img src="resources/images/header.jpg">
+        <img src="resources/images/header2.jpg">
     </div>
 
     <?php

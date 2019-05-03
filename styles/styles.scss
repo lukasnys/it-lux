@@ -1,3 +1,4 @@
+@import 'colors.scss';
 body {
     font-family: 'Montserrat', sans-serif;
 }
@@ -5,28 +6,50 @@ body {
 .footer {
     position: fixed;
     bottom: 0;
-    left: 0;
+    right: 5;
     width: 100%;
-    color: white;
+    color: $colorWhite;
     height: 50px;
     line-height: 50px;
 }
 
 nav {
+    display: flex;
     z-index: 1;
+    li {
+        flex-direction: column;
+        justify-content: space-between;
+    }
     .navbar-brand {
-        font-size: 35px
+        font-size: 35px;
+         :hover {
+            transform: scale(1.1);
+            color: $colorWhite;
+        }
+    }
+    .nav-item {
+        text-transform: uppercase;
+         :hover {
+            transform: scale(1.1);
+            color: $colorWhite;
+        }
     }
     a {
-        color: white;
+        color: $colorWhite;
     }
 }
 
 .navbar-pages {
     li {
-        font-size: 18px;
-        margin-left: 2.5vw;
-        margin-right: 2.5vw;
+        font-size: 15px;
+        margin-left: 3.5vw;
+        margin-right: 3.5vw;
+    }
+    .separator {
+        width: 1px;
+        border: 1px solid $colorWhite;
+        margin: 0px;
+        padding: 0px;
     }
 }
 
@@ -34,6 +57,7 @@ nav {
     position: fixed;
     top: -50px;
     img {
+        opacity: 0.85;
         background-attachment: fixed;
         background-position: center;
         background-repeat: no-repeat;

@@ -1,6 +1,6 @@
 <footer class="footer">
-    <div class="container">
-        <p>&copy; it-lux - Lukas Nys</p>
+    <div>
+        <p>&copy; 2019 - Powered by it-lux</p>
     </div>
 </footer>
 
